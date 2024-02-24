@@ -1,0 +1,57 @@
+name: hadith_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.0
+  flutter_polygon: ^0.3.0+2
+  sqflite: ^2.3.2
+  path_provider: ^2.1.2
+  flutter_native_splash: ^2.3.11
+
+
+flutter_native_splash:
+  android: true
+  ios: true
+  fullscreen: true
+  web: false
+  image: "assets/icons/hadith_logo.png"
+  color: "#1AA483"
+  color_dark: "#1AA483"
+  image_dark: "assets/icons/hadith_logo.png"
+
+  android_12:
+    image: "assets/icons/hadith_logo.png"
+    icon_background_color: "#1AA483"
+    image_dark: "assets/icons/hadith_logo.png"
+    icon_background_color_dark: "#1AA483"
+    color: "#1AA483"
+    color_dark: "#1AA483"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/db/hadith_bn_test.db
+    - assets/icons/
+
+  fonts:
+    - family: MulishRegular
+      fonts:
+        - asset: assets/fonts/mulish-regular.ttf

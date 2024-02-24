@@ -1,16 +1,12 @@
-# hadith_app
+# Hadith App
 
-A new Flutter project.
+## NOTE:
 
-## Getting Started
+    DATABASE file is not included as GitHub's file size limit is 100.00 MB and the database file itself is 135 MB.
 
-This project is a starting point for a Flutter application.
+    So, Import the hadith_bn_test.db file to 'assets/db/hadith_bn_test.db', before running the project.
 
-A few resources to get you started if this is your first Flutter project:
+    Database File Link: https://drive.google.com/file/d/1X7w0rsA1zVZJ12b6yYXVn_4x9LbYhqen/view?usp=sharing
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
